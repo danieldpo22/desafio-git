@@ -1,0 +1,15 @@
+docker pull ubuntu 
+
+docker run ubuntu -- executar o comando do ubuntu
+
+docker run ubuntu sleep 10 >>> ele vai entrar e apagar apos 10 segundos . vale a pena notar que quando utilizado o docker ps , ubuntu ou outro container que aparece , ja executou e já saiu , quando dar o comando run de novo, criase outro container.
+
+docker run ubuntu sleep 10 , curso fica preso pelo temp determinado
+
+*uma alternativa para parar em caso do tempo ser muito grande, abrir uma nova aba do terminal.
+
+docker stop ou coloca ou "id "ou "names"
+
+docker run -it ubuntu 
+
+ja executa o container e entra nele.

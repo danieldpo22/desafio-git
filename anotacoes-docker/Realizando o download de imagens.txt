@@ -1,0 +1,23 @@
+01-docker pull + nome da image  , exemplo docker pull hello-world
+
+como está sem tag no final do comando , ele vai ficar pegar a ultima versão (latest)
+
+02- docker images = para listar todas images .
+
++++++++++++++++++++++++++++++++++++++++
+
+Quando a imagem está baixada pode ser executada .
+
+docker run hello-world 
+
+comando para mostrar container em execução
+
+docker ps 
+
+docker ps -a , para ver container que estavam em execução recente
+
+sintaxe nova
+
+docker container ls 
+
+docker container run

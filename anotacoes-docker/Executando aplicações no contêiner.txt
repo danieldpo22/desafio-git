@@ -1,0 +1,21 @@
+docker -- help
+
+dcoker run -d <<< para rodar em background e printar o ID do container , em caso de sair ele vai continuar rodando.
+
+- t = allocate a pseudo tty
+
+-i intereção com o container
+
+Docker run -dti ubuntu
+
+docker run -dti ubuntu  << para
+
+docker exec -it id do container /bin/bash  está executando bash no container ja em execução.
+
+antes de instalar qualquer coisa como nano , precisa realizar update . apt update + apt upgrade
+
+docker exec -it id do container cat /etc/*release* 
+
+docker stop + id do container
+
+comando acima para parar container.
